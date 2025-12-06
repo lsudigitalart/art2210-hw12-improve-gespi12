@@ -52,9 +52,13 @@ function preload() {
 
     Sball = createImg("SpursBall.webp");
 
+ring = createImg("ring.gif");
+    derek = createImg("Derek.png");
+    
     bolt = createImg("Bolt.png");
      yncap = createImg("YNcap.webp");
      ballandbat = createImg("baseballandbat.gif");
+     kia = createImg("Kia.png");
     rockin = createImg("rockingchair.gif");
     nombre = createImg("Tony.gif");
     dotd = createImg("dotd.gif");
@@ -167,5 +171,14 @@ function draw() {
 
     dotd.position(520,1150)
     dotd.size(400,400);
+
+    derek.position(-100,900)
+    derek.size(400,400);
+
+    ring.position(-30,770)
+    ring.size(250,250);
+
+    kia.position(700,930)
+    kia.size(500,500);
 
 }
